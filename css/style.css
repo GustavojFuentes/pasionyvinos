@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+/* selectores universales */
+.header-index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: 4.375rem;
+    background-color: #C68A75;
+    position: sticky;
+    top: 0;
+}
+
+.header-index nav{
+    display: flex;
+    width: 100%;
+    gap: 3.125rem
+    margin-left: 30px;
+    background-color: #C68A75;
+    list-style: none;
+}
+
+.navBar{
+    display: flex;
+    gap: 1.25rem;
+    margin-left: 150px;
+    background-color: #C68A75;
+    list-style: none;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 75;
+}
+
+.PasionyVinos{
+    display: flex;
+    width: 30%;
+    margin-right: 850px;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    background-color: #181818;
+}
+
+.catalogo{
+    width: 100%;
+    background-image: url(../assets/02.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lista{
+    width: 80%;
+    margin-left: 250px;
+}
+
+body{
+    background-color: #181818;
+}
+
+.foto-principal{
+    width: 100%vh;
+    height: 1026px;
+    background-image: url(../assets/01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-nosotros{
+    width: 100%vh;
+    height: 1026px;
+    background-image: url(../assets/paisaje_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parrafo-index{
+    width: 40%;
+    margin-left: 600px;
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    background-color: #A48559;
+}
+
+.parrafo-nosotros{
+    width: 40%;
+    margin-left: 600px;
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    background-color: #A48559;
+}
+
+
+p{
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+section p{
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+h2{
+    color: #f7f5f5;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    text-shadow: 3px 3px 2px #22092C;
+}
+
+h3{
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-size: medium;
+}
+
+h4{
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-size: smaller;  
+}
+
+h5{
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+    font-size: smaller;
+}
+
+
+li{
+    color: #f7f5f5;
+    font-family: "Open Sans", sans-serif;
+}
+
+.index{
+    margin-left: 500px;
+    width: 50rem;
+    height: 37.5rem;
+    /* border: 1px solid black; */
+    overflow: hidden;/**oculta excesos**/
+    background-color: #A48559;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.457);
+}
+
+.index div{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.index img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.index-info{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor-poductos{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.producto-1 div{
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.producto-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.producto-2 div{
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.producto-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.producto-3 div{
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.producto-3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.regina{
+    width: 50rem;
+    height: 31.25rem;
+    /* border: 1px solid black; */
+    overflow: hidden;/**oculta excesos**/
+    background-color: #A48559;
+    margin: .625rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.457);
+}
+
+.regina div{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.regina img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.regina-info{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.malbec{
+    width: 500px;
+    height: 1000px;
+    overflow: hidden;
+    background-color: #A48559;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.457);
+    margin: 10px;
+}
+
+.malbec div{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.malbec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.malbec-info{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+form{
+    width: 50%;
+    background-color: #fcfcfc;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #A48559;
+    justify-content: space-evenly;
+    margin-top: 1.875rem;
+    list-style: none;
+    color: #181818;
+}
+
+.footer-bodegas li a{
+    width: 20%;
+    text-decoration: none;
+    list-style: none;
+    color: #181818;
+}
+
+.footer-socios li a{
+    text-decoration: none;
+    list-style: none;
+    color: #181818;
+}
+
+.footer-catalogo li a{
+    text-decoration: none;
+    list-style: none;
+    color: #181818;
+}
+
+footer div{
+    width: 18.75rem;
+
+}
+
